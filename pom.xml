@@ -10,7 +10,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>yogstationparent</module> <!-- module is in a subdirectory of this project -->
+        <module>yogstationparent</module>
+        <module>yogstation-ping</module>
     </modules>
 
 </project>
