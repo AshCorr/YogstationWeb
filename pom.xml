@@ -51,7 +51,7 @@
                 <executions>
                     <execution>
                         <id>copy-special-libraries</id>
-                        <phase>generate-resources</phase>
+                        <phase>package</phase>
                         <goals>
                             <goal>copy</goal>
                         </goals>
