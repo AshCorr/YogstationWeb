@@ -34,4 +34,4 @@ release:
   script:
     - 'docker build -t registry.gitlab.com/ashcorr20/yogstationweb/$DEPLOY_PROJECT .'
     - 'docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com'
-    - 'docker push registry.gitlab.com/ashcorr20/yogstationweb'
+    - 'docker push registry.gitlab.com/ashcorr20/yogstationweb/$DEPLOY_PROJECT'
