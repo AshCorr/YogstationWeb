@@ -28,7 +28,7 @@ build:
 
 release:
   stage: release
-  before-script:
+  before_script:
     - 'cp target/$DEPLOY_PROJECT.jar app.jar'
   script:
     - 'docker build -t registry.gitlab.com/ashcorr20/yogstationweb/$DEPLOY_PROJECT .'
